@@ -1,0 +1,26 @@
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700;900&display=swap');
+/*Tipografia: font-family: 'Work Sans', sans-serif;*/
+
+
+*{padding: 0; margin: 0;box-sizing: border-box;font-family: 'Work Sans', sans-serif;}
+img{margin-right: 4%;color: aqua;}
+h1{display: inline-block;font-size: 3.6rem;padding-top: 50px;}
+body{background-image: url(../img/background-pattern-desktop.svg);background-position-y: top;background-position-x: center; background-repeat: no-repeat;max-width: 1440px;margin: auto;position: relative;}
+
+article{min-width: 377px; position: absolute; top: 160px;right: 50%; transform: translateX(50%); border-radius: 20px;box-shadow: 0px 10px 30px 10px hsl(278, 49%, 22%); background-color: white;padding: 0 3% 4% 3%;}
+.noti{display: flex;justify-content: space-between;padding-top: 30px;}
+.noti p{font-size: 1.2rem;font-weight: 700;}
+.noti p:hover{color: hsl(280.92,82.98%,53.92%);cursor: pointer;}
+.noti img{margin: 0;}
+.noti img:hover{cursor: pointer;}
+section{color: hsl(292, 16%, 49%);font-size: 1.1rem;text-align: start;display: none;padding-top: 30px;}
+.txt1{display: block;}
+
+
+@media screen and (max-width: 500px){
+    
+    p{scale: .9;}
+    h1{scale: .8;padding-top: 20px;}
+    .noti{padding-top: 20px;}
+    img{scale: .8}
+}
